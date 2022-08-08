@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb4fda5ff5eab4f4898e703daed0719e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NecroThoughtGood: {fileID: 6440924045308249918, guid: 90fd889060ec7ec49a126bcc8abe8aa3, type: 3}
+  - NecroThoughtBad: {fileID: 7948533814515900669, guid: 36e8bd5af2456d84c8664aa0b014e489, type: 3}
+  - ExitPortal: {fileID: 6164697559292438258, guid: 9a4fbef148fb20149be7c685fb836e34, type: 3}
+  - SummonScreen: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

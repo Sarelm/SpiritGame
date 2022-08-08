@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 4e0c688f7ff934c4f9176d1d475df6d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ChronoThoughts: {fileID: 3233659194867726423, guid: 89f94fac26e0d01499a3644642f3c10e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

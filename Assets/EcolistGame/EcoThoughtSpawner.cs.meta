@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 98702cc4c031b664ab1829accc29d3a9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - EcoThoughtGood: {fileID: 589637904455591848, guid: 01261a895fb76b848bd5cf18963b9b98, type: 3}
+  - EcoThoughtBad: {fileID: 4159780348401739577, guid: b6befee9ebc903340aff1900e2a21055, type: 3}
+  - ExitPortal: {fileID: 6164697559292438258, guid: 9a4fbef148fb20149be7c685fb836e34, type: 3}
+  - SummonScreen: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ec3c726bcc112f46b2167f364efbc4d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ChronoThoughtGood: {fileID: 4732484765276797295, guid: 3eb8a5fdd795d7a48a139a9440af1035, type: 3}
+  - ChronoThoughtBad: {fileID: 7831539946945544559, guid: c207f74b94b4fc0409cabf6d1b445884, type: 3}
+  - ExitPortal: {fileID: 6164697559292438258, guid: 9a4fbef148fb20149be7c685fb836e34, type: 3}
+  - SummonScreen: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

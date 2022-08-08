@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bc61ad3caacb77a4c9be0d87ca820711
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NecroThoughts: {fileID: 2959087147936991384, guid: f468d7b4e2629654e8128c433ca56726, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
