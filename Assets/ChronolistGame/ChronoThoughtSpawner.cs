@@ -46,9 +46,9 @@ public class ChronoThoughtSpawner : MonoBehaviour
 
         Vector2 SpawnPosition = new Vector2(spawnX, spawnY);
         float PortalDistance = Vector2.Distance(PlayerSpirit.transform.position, SpawnPosition);
-        float MinDistance = 10.0f;
-        bool DistanceCheck = MinDistance >= PortalDistance;
-        while (DistanceCheck)
+        float MinDistance = 1.0f;
+        bool TooClose = MinDistance >= PortalDistance;
+        while (TooClose)
         {
             Debug.Log("Nope! Portal too close.");
             float spawnY1 = Random.Range
@@ -56,10 +56,10 @@ public class ChronoThoughtSpawner : MonoBehaviour
             float spawnX1 = Random.Range
                 (Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x, Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, 0)).x);
             SpawnPosition = new Vector2(spawnX1,spawnY1);
-            if (!DistanceCheck)
-                Debug.Log("Exit Here!");
-                Instantiate(ExitPortal, SpawnPosition, Quaternion.identity, SummonScreen);
+            if (!TooClose)
             break;
+            Debug.Log("Exit Here!");
+            Instantiate(ExitPortal, SpawnPosition, Quaternion.identity, SummonScreen);
         }
     }
 }
