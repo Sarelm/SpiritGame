@@ -31,7 +31,8 @@ public class ChronoThoughtsScript : MonoBehaviour
         string[] ChronoTerms =
         {
             "Prime Numbers",
-            "Divisible by 3."
+            "Divisible by 3.",
+            "Square Numbers"
         };
         int ChronoTermNum = Random.Range(0, ChronoTerms.Length);
         string PickChronoTerm = ChronoTerms[ChronoTermNum];
@@ -78,6 +79,24 @@ public class ChronoThoughtsScript : MonoBehaviour
             int TriTermsNum = Random.Range(0, TriTerms.Length);
             Terms = TriTerms[TriTermsNum];
         }
+        if (Nowles == "Square Numbers")
+        {
+            Debug.Log("Squared");
+            string[] SquareTerms =
+            {
+            "4",
+            "9",
+            "16",
+            "25",
+            "36",
+            "49",
+            "64",
+            "81",
+            "100"
+            };
+            int SquareTermsNum = Random.Range(0, SquareTerms.Length);
+            Terms = SquareTerms[SquareTermsNum];
+        }
         return Terms;
     }
     public static string GetBadTerms()
@@ -121,6 +140,26 @@ public class ChronoThoughtsScript : MonoBehaviour
             };
             int NotTriTNum = Random.Range(0, NotTriTerms.Length);
             BadTerms = NotTriTerms[NotTriTNum];
+        }
+        if (Nowles == "Square Numbers")
+        {
+            Debug.Log("Not Squared");
+            string[] NotSquareTerms =
+            {
+            "55",
+            "61",
+            "83",
+            "13",
+            "18",
+            "20",
+            "28",
+            "34",
+            "101",
+            "97",
+            "108"
+            };
+            int NotSquareTNum = Random.Range(0, NotSquareTerms.Length);
+            BadTerms = NotSquareTerms[NotSquareTNum];
         }
         return BadTerms;
     }
