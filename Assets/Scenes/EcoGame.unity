@@ -672,6 +672,7 @@ MonoBehaviour:
   EcoThoughtBad: {fileID: 4159780348401739577, guid: b6befee9ebc903340aff1900e2a21055, type: 3}
   ExitPortal: {fileID: 6164697559292438258, guid: 9a4fbef148fb20149be7c685fb836e34, type: 3}
   SummonScreen: {fileID: 1199270508}
+  PlayerSpirit: {fileID: 352080707}
 --- !u!224 &1714657788 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8672541023311249474, guid: fd9c4f924bf29224f80d6267eb35c2ee, type: 3}

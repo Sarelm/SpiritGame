@@ -491,6 +491,7 @@ MonoBehaviour:
   InvoThoughtBad: {fileID: 2572061608005397793, guid: 04d581831acc8324e8de90ca56571831, type: 3}
   ExitPortal: {fileID: 6164697559292438258, guid: 9a4fbef148fb20149be7c685fb836e34, type: 3}
   SummonScreen: {fileID: 1343116729}
+  PlayerSpirit: {fileID: 2045619792}
 --- !u!114 &1343116726
 MonoBehaviour:
   m_ObjectHideFlags: 0
