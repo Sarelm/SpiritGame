@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Xml.Serialization;
 using System.IO;
+using System;
 
 public class SpiritManager : MonoBehaviour
 {
@@ -24,6 +25,12 @@ public class SpiritManager : MonoBehaviour
         serializer.Serialize(stream, Spirits);
         stream.Close();
     }
+
+    internal static void Save()
+    {
+        throw new NotImplementedException();
+    }
+
     public List<SummonedSpirit> LoadSummonedSpirits()
     {
         if(File.Exists(Application.persistentDataPath + "/Spirits/yourspirits.xml"))
@@ -35,7 +42,7 @@ public class SpiritManager : MonoBehaviour
         return Spirits.SpiritsSummoned;
     }
     List<SummonedSpirit> SpiritsSummoned;
-    public void Save()
+    public void Save(List<SummonedSpirit> SpiritsSummoned)
     {
         Debug.Log("Saving Spirit List Now");
         instance.SaveSpirits(SpiritsSummoned);

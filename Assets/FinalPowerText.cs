@@ -18,7 +18,7 @@ public class FinalPowerText : MonoBehaviour
     {
         Debug.Log("Added to your Summoned Spirit.");
         SpiritsSummoned.Add(new SummonedSpirit { TypeofSpirit = DynamType, PowerofSpirit = Power });
-        //SpiritManager.Save();
+        SpiritManager.Save();
     }
 }
 public class SummonedSpirit
