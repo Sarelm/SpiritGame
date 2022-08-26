@@ -25,12 +25,6 @@ public class SpiritManager : MonoBehaviour
         serializer.Serialize(stream, Spirits);
         stream.Close();
     }
-
-    internal static void Save()
-    {
-        throw new NotImplementedException();
-    }
-
     public List<SummonedSpirit> LoadSummonedSpirits()
     {
         if(File.Exists(Application.persistentDataPath + "/Spirits/yourspirits.xml"))
@@ -42,13 +36,14 @@ public class SpiritManager : MonoBehaviour
         return Spirits.SpiritsSummoned;
     }
     List<SummonedSpirit> SpiritsSummoned;
-    public void Save(List<SummonedSpirit> SpiritsSummoned)
+    public void Save()
     {
-        Debug.Log("Saving Spirit List Now");
+        Debug.Log("It actually saved!!");
         instance.SaveSpirits(SpiritsSummoned);
     }
     public void Load()
     {
+        Debug.Log("Here's those spirits you asked for.");
         SpiritsSummoned = instance.LoadSummonedSpirits();
     }
 }

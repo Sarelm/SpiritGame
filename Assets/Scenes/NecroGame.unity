@@ -364,6 +364,7 @@ MonoBehaviour:
   NecroThoughtBad: {fileID: 7948533814515900669, guid: 36e8bd5af2456d84c8664aa0b014e489, type: 3}
   ExitPortal: {fileID: 6164697559292438258, guid: 9a4fbef148fb20149be7c685fb836e34, type: 3}
   SummonScreen: {fileID: 979816777}
+  PlayerSpirit: {fileID: 352365202}
 --- !u!114 &979816774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,7 +415,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 2139017530}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
