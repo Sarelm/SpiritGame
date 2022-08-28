@@ -103,6 +103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8672541023311249475, guid: fd9c4f924bf29224f80d6267eb35c2ee, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f775fa373cf384047b526f2a05afe453, type: 2}
     - target: {fileID: 8672541023311249477, guid: fd9c4f924bf29224f80d6267eb35c2ee, type: 3}
       propertyPath: m_Name
       value: ChronoThoughts
