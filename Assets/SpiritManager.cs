@@ -19,6 +19,7 @@ public class SpiritManager : MonoBehaviour
     }
     public void SaveSpirits(List<SummonedSpirit> SpiritsYouSummoned)
     {
+        Debug.Log("Is this saving it?");
         Spirits.SpiritsSummoned = SpiritsYouSummoned;
         XmlSerializer serializer = new XmlSerializer(typeof(SpiritList));
         FileStream stream = new FileStream(Application.persistentDataPath + "/Spirits/yourspirits.xml", FileMode.Create);

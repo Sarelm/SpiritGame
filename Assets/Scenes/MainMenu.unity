@@ -1049,7 +1049,7 @@ MonoBehaviour:
   SummonButton: {fileID: 1462484775}
   QuitButton: {fileID: 24842458}
   isEnabled: 1
-  CameraIcon: {fileID: 0}
+  CameraIcon: {fileID: 111155121}
   CameraMode: {fileID: 21300000, guid: 563dd79b4ee47664085480b0b107dbd4, type: 3}
   Initials: {fileID: 21300000, guid: 1ca9146ca1f7f314897aaa369797ca0f, type: 3}
 --- !u!1 &787721484
